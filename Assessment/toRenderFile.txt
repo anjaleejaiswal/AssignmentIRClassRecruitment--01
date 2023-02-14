@@ -1,0 +1,33 @@
+1. install node.js in your system(if nodejs is already present in your system then please ignore this step)
+
+2.create folder with any name in your system(let's say csv-parse in desktop location)
+
+3.in csv-parse folder add - 	a. src 
+					b. .parcelrc 
+					c. .postcssrc 
+					d.epl_stats 
+					e.index.css 
+					f.index.html (add these files from github)
+
+4. open csv-parse folder in visual studio code
+
+5. open terminal in VSCode and install
+			a. npm init -y
+			b. npm install -D parcel
+       		c. npm install react
+			d. npm install react-dom
+			e. npm install -D tailwindcss postcss
+			f. npm install --save-dev parcel-transformer-csv
+			g.npm install @mui/material @emotion/react @emotion/styled
+
+6. in package.json add in replace "scripts" with 
+		
+"scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+
+7.replace the inside content of tailwind.config.js with the content present in github tailwind.config.js.
+
+8.After following all the above steps : in your terminal write --  
+		npm start
