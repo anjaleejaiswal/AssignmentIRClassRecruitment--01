@@ -1,4 +1,5 @@
 1. install node.js in your system(if nodejs is already present in your system then please ignore this step)
+	if not then install node from this location in your system  -  " https://nodejs.org/en/  " (version > 14)
 
 2.create folder with any name in your system(let's say csv-parse in desktop location)
 
